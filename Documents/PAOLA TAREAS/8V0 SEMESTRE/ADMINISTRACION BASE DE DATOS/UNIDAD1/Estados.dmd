@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Estados" id="938EE27F-80A3-7D00-E747-A0BADB42C691" version="3.5">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:37:02 UTC</createdTime>
+<ownerDesignName>Estados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>938EE27F-80A3-7D00-E747-A0BADB42C691</designId>
+</OSDM_Design>

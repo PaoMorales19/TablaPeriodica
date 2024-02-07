@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBC7A3DF-FBC0-9846-4C69-37D4D4589551" name="MUNICIPIOS">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:40:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla de Municipios]]></commentInRDBMS>
+<ownerDesignName>Estados</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Municipio" id="0DB8DBBD-782C-DA8B-72C4-4766A52DCB9B">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:43:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del municipio]]></commentInRDBMS>
+<ownerDesignName>Estados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MUNICIPIO_PK" id="66C8AEA4-4DEF-8468-CA0C-4216C0EFC9DA">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:45:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del MUNICIPIO]]></commentInRDBMS>
+<ownerDesignName>Estados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estado_fk" id="69282F4A-6F2D-083B-BFF5-85763A9EA254">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:46:37 UTC</createdTime>
+<ownerDesignName>Estados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68AE1D51-B936-9FF0-C7A4-089C30BBA954" referredColumn="66C8AEA4-4DEF-8468-CA0C-4216C0EFC9DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC69F7D7-E574-F1E5-C110-81E59242DA76" name="MUNICIPIOS_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:45:53 UTC</createdTime>
+<ownerDesignName>Estados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66C8AEA4-4DEF-8468-CA0C-4216C0EFC9DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2432B2D-6554-30D9-EF96-321A33B95602" name="MUNICIPIOS_MUNICIPIOS_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2024-02-07 20:47:48 UTC</createdTime>
+<ownerDesignName>Estados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69282F4A-6F2D-083B-BFF5-85763A9EA254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
